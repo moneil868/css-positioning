@@ -15,22 +15,26 @@ body {
   margin: 0;
 }
 
-img {
-  max-width: 100%;
-}
-
 figure {
   margin: 0;
 }
 
 .film {
-  width: 50%;
+  width: 80%;
   margin: 40px auto;
 }
 
 article.film {
     border: 1px solid #eee;
     padding: 20px;
+}
+
+.film-poster {
+  width: 40%;
+}
+
+.film-poster img {
+  max-width: 100%;
 }
 
 .action-watch-later {
@@ -43,7 +47,17 @@ article.film {
 
 figure.film-poster {
     position: relative;
+    display: inline-block;
 }
+
+.film-details {
+    width: 58%;
+    display: inline-block;
+    position: relative;
+    padding: 40px;
+    top: 0;
+}
+
 
 .action-like {
   color: red;
