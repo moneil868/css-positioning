@@ -27,3 +27,24 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+article.film {
+    border: 1px solid #eee;
+    padding: 20px;
+}
+
+.action-watch-later {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: red;
+}
+
+figure.film-poster {
+    position: relative;
+}
+
+.action-like {
+  color: red;
+}
