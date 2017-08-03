@@ -19,9 +19,13 @@ figure {
   margin: 0;
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
 .film {
   width: 80%;
-  margin: 40px auto;
+  margin: 50px auto;
 }
 
 article.film {
@@ -30,7 +34,7 @@ article.film {
 }
 
 .film-poster {
-  width: 40%;
+  width: 30%;
 }
 
 .film-poster img {
@@ -51,14 +55,21 @@ figure.film-poster {
 }
 
 .film-details {
-    width: 58%;
+    width: 68%;
     display: inline-block;
     position: relative;
-    padding: 40px;
-    top: 0;
+    padding: 0 20px 0 40px;
+    vertical-align:top;
 }
 
-
 .action-like {
-  color: red;
+    color: red;
+    float: right;
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+.film-description {
+  font-size: 1.3em;
 }
