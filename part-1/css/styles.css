@@ -37,6 +37,9 @@ body {
 
 .green {
   background-color: lightgreen;
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
 }
 
 .blue {
